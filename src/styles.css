@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.links {
-  @apply text-red-500
+.list li a:hover {
+  @apply text-purple-800 duration-500;
+}
+
+.list li:nth-child(4) {
+  @apply text-red-400;
+}
+
+section {
+  @apply h-[900px]  border-b border-gray-400;
+}
+
+body::-webkit-scrollbar{
+  @apply w-[6px]
+}
+body::-webkit-scrollbar-thumb {
+  @apply bg-blue-600 rounded-full
+}
+body::-webkit-scrollbar-track {
+  @apply bg-gray-300;
 }
