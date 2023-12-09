@@ -7,7 +7,7 @@
 }
 
 .list li:nth-child(4) {
-  @apply text-red-400;
+  @apply text-[#00FF66];
 }
 
 section {
@@ -18,7 +18,7 @@ body::-webkit-scrollbar{
   @apply w-[6px]
 }
 body::-webkit-scrollbar-thumb {
-  @apply bg-blue-600 rounded-full
+  @apply bg-[#00FF66] rounded-full
 }
 body::-webkit-scrollbar-track {
   @apply bg-gray-300;
