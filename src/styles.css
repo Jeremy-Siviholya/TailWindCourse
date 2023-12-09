@@ -3,23 +3,23 @@
 @tailwind utilities;
 
 .list li a:hover {
-  @apply text-purple-800 duration-500;
+  @apply text-[#FF0055] duration-500;
 }
 
-.list li:nth-child(4) {
+.list li:nth-child(3) {
   @apply text-[#00FF66];
 }
 
 section {
-  @apply h-[900px]  border-b border-gray-400;
+  @apply h-[1000px]
 }
 
 body::-webkit-scrollbar{
   @apply w-[6px]
 }
 body::-webkit-scrollbar-thumb {
-  @apply bg-[#00FF66] rounded-full
+  @apply bg-[#FAF2F5] rounded-full
 }
 body::-webkit-scrollbar-track {
-  @apply bg-gray-300;
+  @apply bg-[#1d1d1d];
 }
