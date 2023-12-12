@@ -11,15 +11,29 @@
 }
 
 section {
-  @apply h-[1000px]
+  @apply h-[1000px];
 }
 
-body::-webkit-scrollbar{
-  @apply w-[6px]
+body::-webkit-scrollbar {
+  @apply w-[6px];
 }
 body::-webkit-scrollbar-thumb {
-  @apply bg-[#FAF2F5] rounded-full
+  @apply bg-[#FAF2F5] rounded-full;
 }
 body::-webkit-scrollbar-track {
   @apply bg-[#1d1d1d];
+}
+
+/* #Home div:nth-child(4)::before {
+  content: "23$";
+  @apply absolute w-20 h-10 bg-black/30 top-2 right-2 rounded-full flex justify-center items-center text-white font-semibold ;
+} */
+#Home .children{
+  counter-increment: count;
+}
+
+#Home .children::before{
+  content: counter(count) "/" attr(data-price);
+  /* content: attr(data-price); */
+  @apply absolute w-20 h-10 bg-black/30 top-2 right-2 rounded-full flex justify-center items-center text-white font-semibold ;
 }
