@@ -35,5 +35,5 @@ body::-webkit-scrollbar-track {
 #Home .children::before{
   content: counter(count) "/" attr(data-price);
   /* content: attr(data-price); */
-  @apply absolute w-20 h-10 bg-black/30 top-2 right-2 rounded-full flex justify-center items-center text-white font-semibold ;
+  @apply absolute w-20 h-10 bg-black/30 top-2 right-2 rounded-full backdrop-blur-sm flex justify-center items-center text-white font-semibold ;
 }
