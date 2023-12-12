@@ -736,6 +736,10 @@ video {
   background-position: center;
 }
 
+.bg-bottom {
+  background-position: bottom;
+}
+
 .fill-white {
   fill: #fff;
 }
