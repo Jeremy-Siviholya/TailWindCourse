@@ -6,6 +6,7 @@
     <title>Tailwind Courses</title>
     <link rel="stylesheet" href="./styles.css" />
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
   </head>
   <body class="bg-gray-300">
     <div class="scrollbar">
@@ -156,9 +157,59 @@
         <img src="./image-10.jpg" class="w-full  bg-center object-cover h-full" alt="">
       </section>
       <!-- Services -->
-      <section id="Services" class="bg-[#151515]"></section>
+      <section id="Services" class="bg-[#151515] flex justify-center items-center">
+           <div class="w-[470px] h-[500px] bg-white/80 overflow-hidden rounded-md">
+            <div class="h-[15%] flex justify-center items-center shadow-md">
+                  <h2 class="text-3xl text-blue-600">REGISTER HERE</h2>
+            </div>
+            <div class="h-[85%] ">
+              <form action="" class="h-full w-full flex  justify-center py-10">
+                <div class="space-y-5">
+                  <!-- first input -->
+                  <div class=" h-10  flex justify-between">
+                    <div class="h-full w-[30%] flex items-center">
+
+                      <label for="firstname" class="text-[20px] text-gray-600">Firstname</label>
+                    </div>
+                    <div class="w-[70%] h-full bg-red-500 ">
+                      <input id="firstname" placeholder="Your firstname" type="number"  class="px-5 outline-none  h-full placeholder:text-gray-600 w-full  text-gray-700  border bg-blue-200     rounded-sm">
+                    </div>
+                  </div>
+<!-- Second input -->
+                   <div class="border h-10  rounded-full bg-blue-200 overflow-hidden flex">
+                    <div class="h-full w-[15%] flex justify-center items-center">
+                          <i class="fa-solid fa-magnifying-glass-dollar"></i>
+                    </div>
+                    <div class="h-full w-[45%]">
+                        <input type="text" class="h-full w-full px-4 bg-transparent placeholder:text-gray-600 outline-none" placeholder="search...">
+                    </div>
+                    <div class="h-full w-[40%]  flex items-center text-sm space-x-2">
+                        <span>Powered by</span>
+                        <a href="" class="hover:text-blue-500 duration-500">
+                          <i class="fa-brands fa-algolia"></i>
+                          <span>Algoria</span>
+                        </a>
+                    </div>
+                  </div>
+                  <!-- third input -->
+                  <div class=" h-10  ">
+                   <input type="file" name="" class="w-full h-full rounded-full bg-blue-200 border outline-none file:rounded-full px-2 py-1 file:text-white file:border-none file:bg-blue-600/60 file:py-1" id="">
+                  </div>
+                   <div class=" h-10  ">
+                   <input type="checkbox" name="" class="w-full accent-pink-500 h-full rounded-full bg-blue-200 border outline-none file:rounded-full px-2 py-1 file:text-white file:border-none file:bg-blue-600/60 file:py-1" id="">
+                  </div>
+                </div>
+              </form>
+            </div>
+           </div>
+      </section>
       <!-- learn -->
-      <section id="Learn" class="bg-[#1a2027]"></section>
+      <section id="Learn" class="bg-[#1a2027] flex justify-center items-center">
+
+        <div class="bg-blue-500 w-96 h-96 blur-3xl bg-opacity-60 rounded-full">
+
+        </div>
+      </section>
     </div>
   </body>
 </html>
