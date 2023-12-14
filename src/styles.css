@@ -6,9 +6,14 @@
   @apply text-[#FF0055] duration-500;
 }
 
+
+
+
 .list li:nth-child(3) {
   @apply text-[#00FF66];
 }
+
+
 
 section {
   @apply h-[1000px];
