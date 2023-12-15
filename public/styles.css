@@ -1400,6 +1400,10 @@ body::-webkit-scrollbar-track {
     background-color: rgb(21 21 21 / var(--tw-bg-opacity));
   }
 
+  .lg\:bg-opacity-60 {
+    --tw-bg-opacity: 0.6;
+  }
+
   .lg\:p-0 {
     padding: 0px;
   }
