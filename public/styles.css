@@ -1134,6 +1134,10 @@ body::-webkit-scrollbar-track {
     height: 0px;
   }
 
+  .mobile\:h-full {
+    height: 100%;
+  }
+
   .mobile\:w-\[80\%\] {
     width: 80%;
   }
@@ -1287,6 +1291,10 @@ body::-webkit-scrollbar-track {
     position: fixed;
   }
 
+  .lg\:top-0 {
+    top: 0px;
+  }
+
   .lg\:z-0 {
     z-index: 0;
   }
@@ -1352,6 +1360,10 @@ body::-webkit-scrollbar-track {
     align-items: center;
   }
 
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
   .lg\:justify-end {
     justify-content: flex-end;
   }
@@ -1403,6 +1415,10 @@ body::-webkit-scrollbar-track {
 
   .lg\:leading-none {
     line-height: 1;
+  }
+
+  .lg\:leading-\[0\] {
+    line-height: 0;
   }
 
   .lg\:backdrop-blur-md {
