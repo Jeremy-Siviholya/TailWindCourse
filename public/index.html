@@ -5,37 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Courses</title>
     <link rel="stylesheet" href="./styles.css" />
+    
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
   </head>
-  <body class="bg-[#1d1d1d]">
+  <body class="bg-[#242424]">
     <div class="mobile:h-auto mobile:p-0 mobile:relative">
-      <div class="lg:hidden mobile:bg-black mobile:fixed mobile:top-0 mobile:w-screen mobile:z-40  lg:z-0">
+      <div class="lg:hidden mobile:bg-black/50 mobile:fixed mobile:top-0 mobile:backdrop-blur-sm mobile:z-30 mobile:w-screen   lg:z-0">
         <i class="fa-solid fa-bars text-white text-[25px] p-2 rounded-md m-3 bg-black/50"></i>
       </div>
       <!-- navbar -->
       <div
-        class="lg:bg-[#151515] mobile:backdrop-blur-lg lg:z-50 mobile:fixed -left-[100%] left-0 mobile:top-0 mobile:z-50 lg:top-0 lg:translate-x-0  mobile:-translate-x-0   md:bg-purple-600 sm:bg-orange-500 mobile:bg-black/90 mobile:w-[80%] mobile:h-screen mobile:block lg:backdrop-blur-md lg:h-20 lg:flex lg:fixed lg:w-screen z-20 lg:bg-opacity-60"
+
+        class="navbar lg:bg-red-500 mobile:bg-black/50 lg:z-50 mobile:-translate-x-[100%]  mobile:z-50 lg:translate-x-0 mobile:fixed mobile:top-0   md:bg-purple-600 sm:bg-orange-500  mobile:w-full mobile:h-screen mobile:block lg:backdrop-blur-md lg:h-20 lg:flex lg:fixed lg:w-screen z-20 lg:bg-opacity-60"
       >
-        <div class="lg:h-full mobile:relative mobile:h-[10%] mobile:flex mobile:items-center  mobile:w-full w-1/2 lg:px-7 mobile:px-3 lg:flex lg:gap-2  lg:items-center">
+        <div class="lg:h-full mobile:relative mobile:h-[10%]  mobile:flex mobile:items-center  mobile:w-[80%] mobile:bg-black/90 mobile:backdrop-blur-md  w-1/2 lg:px-7 mobile:px-3 lg:flex lg:gap-2  lg:items-center">
           <svg xmlns="http://www.w3.org/2000/svg"   class="w-10 h-10 fill-white" height="16" width="20" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"/></svg>
           <h1 class="text-2xl mobile:text-[20px] mobile:ml-3 font-semibold text-white">JUST PLAY</h1>
           <div class="lg:hidden mobile:absolute mobile:top-5 mobile:right-5 ">
             <i class="fa-solid fa-xmark text-white text-[24px]"></i>
           </div>
         </div>
-        <div class="lg:h-full lg:w-1/2 lg:px-7 mobile:w-full mobile:h-[90%] ">
-          <ul class="lg:h-full lg:flex lg:justify-end lg:items-center mobile:h-full  lg:space-x-3 list mobile:uppercase lg:lowercase  mobile:px-24 mobile:py-40 lg:p-0 ">
-            <li class="font-semibold mobile:mb-5 text-white">
+        <div class="lg:h-full lg:w-1/2 lg:px-7 mobile:bg-black/90 mobile:w-[80%] mobile:backdrop-blur-md mobile:h-[90%] ">
+          <ul class="lg:h-full lg:flex lg:justify-end lg:items-center mobile:h-full  lg:space-x-3 list mobile:uppercase  lg:lowercase  mobile:px-24 mobile:py-40 lg:p-0 ">
+            <li class="font-semibold mobile:mb-5 lg:mb-0 text-white">
               <a href="#Home">Home</a>
             </li>
-            <li class="font-semibold mobile:mb-5 text-white">
+            <li class="font-semibold mobile:mb-5 lg:mb-0  text-white">
               <a href="#About">About</a>
             </li>
-            <li class="font-semibold mobile:mb-5 text-white">
+            <li class="font-semibold mobile:mb-5 lg:mb-0  text-white">
               <a href="#Services">Services</a>
             </li>
-            <li class="font-semibold mobile:mb-5 text-white">
+            <li class="font-semibold  text-white">
               <a href="#Learn">Learn</a>
             </li>
           </ul>
@@ -48,7 +50,7 @@
       <!-- Homepage -->
       <section
         id="Home"
-        class="lg:bg-black/80 lg:h-[1000px]  mobile:h-auto mobile:pl-16 lg:px-20 lg:pt-32 lg:grid lg:grid-cols-4 lg:gap-5 mobile:grid-cols-1 mobile:pt-24 mobile:gap-5 mobile:grid"
+        class="lg:bg-black/80 lg:h-[1000px]   mobile:h-auto mobile:pt-28 mobile:pb-10 mobile:pl-16 lg:px-20 lg:pt-32 lg:grid lg:grid-cols-4 lg:gap-5 mobile:grid-cols-1  mobile:space-y-5 lg:space-y-0"
       >
         <!-- firstchild -->
         <div
@@ -166,9 +168,9 @@
         <img src="./image-10.jpg" class="w-full  bg-center object-cover h-full" alt="">
       </section>
       <!-- Services -->
-      <section id="Services" class="bg-[#151515] flex justify-center items-center">
-           <div class="w-[470px] h-[500px] bg-gray-600/40  overflow-hidden rounded-md">
-            <div class="h-[15%] flex justify-center items-center shadow-sm shadow-white">
+      <section id="Services" class="bg-[#151515] flex justify-center mobile:h-auto mobile:py-10 items-center">
+           <div class="w-[470px] h-[500px] lg:bg-gray-600/40  overflow-hidden rounded-md">
+            <div class="h-[15%] flex justify-center items-center shadow-sm lg:shadow-white">
                   <h2 class="text-3xl text-white">REGISTER HERE</h2>
             </div>
             <div class="h-[85%] ">
@@ -181,11 +183,11 @@
                       <label for="firstname" class="text-[20px] text-white">Firstname</label>
                     </div>
                     <div class="w-[70%] h-full  ">
-                      <input id="firstname" placeholder="Your firstname" type="text"  class="px-5 outline-none  h-full placeholder:text-gray-300 w-full  text-white   bg-gray-600/80     rounded-md">
+                      <input id="firstname" placeholder="Your firstname" type="text"  class="px-5 outline-none  h-full placeholder:text-gray-300 w-full  text-white   lg:bg-gray-600/80 mobile:bg-black/50    rounded-md">
                     </div>
                   </div>
                   <!-- Second input -->
-                   <div class="h-10  rounded-full  bg-gray-600/80  overflow-hidden flex">
+                   <div class="h-10  rounded-full   lg:bg-gray-600/80 mobile:bg-black/50  overflow-hidden flex">
                     <div class="h-full w-[15%] flex justify-center items-center">
                           <i class="fa-solid text-gray-200 fa-magnifying-glass-dollar"></i>
                     </div>
@@ -202,11 +204,11 @@
                   </div>
                   <!-- third input -->
                   <div class=" h-10  ">
-                   <input type="file" name="" class="w-full h-full rounded-full text-white  bg-gray-600/80  outline-none file:rounded-full px-2 py-1 file:text-white file:border-none file:bg-gray-800 file:py-1" id="">
+                   <input type="file" name="" class="w-full h-full rounded-full text-white   lg:bg-gray-600/80 mobile:bg-black/50  outline-none file:rounded-full px-2 py-1 file:text-white file:border-none mobile:file:bg-black lg:file:bg-gray-900 file:py-1" id="">
                   </div>
                   <!-- fourth -->
                   <div class="">
-                      <input type="file" class="bg-gray-600/80 w-full file:border-none h-10 file:h-full file:mr-6 file:bg-gray-900 file:text-white overflow-hidden rounded-full text-white">
+                      <input type="file" class=" lg:bg-gray-600/80 mobile:bg-black/50 w-full file:border-none h-10 file:h-full file:mr-6 mobile:file:bg-black lg:file:bg-gray-900 file:text-white overflow-hidden rounded-full text-white">
                   </div>
                   <!-- checkbox -->
                   <div class="px-2 space-x-3">
@@ -215,7 +217,7 @@
                   </div>
                   <!-- button -->
                   <div class="flex justify-center w-full absolute bottom-0">
-                    <button class="bg-blue-700 px-4 py-1 rounded-sm hover:bg-emerald-500 duration-500 flex gap-3 items-center text-white">
+                    <button class="bg-blue-700 px-4 py-1 lg:rounded-sm mobile:rounded-full hover:bg-emerald-500 duration-500 flex gap-3 items-center text-white">
                       <i class="fa-solid fa-code"></i>
                       <span>Submit</span>
                     </button>
@@ -229,5 +231,6 @@
       <section id="Learn" class="bg-[#1a2027] flex justify-center items-center">
       
     </div>
+
   </body>
 </html>
