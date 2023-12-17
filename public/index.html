@@ -11,22 +11,25 @@
   </head>
   <body class="bg-[#242424]">
     <div class="mobile:h-auto mobile:p-0 mobile:relative">
-      <div class="lg:hidden mobile:bg-black/50 mobile:fixed mobile:top-0 mobile:backdrop-blur-sm mobile:z-30 mobile:w-screen   lg:z-0">
+      <div class="lg:hidden upbar mobile:bg-black/50 mobile:fixed mobile:top-0 mobile:backdrop-blur-sm mobile:z-30 mobile:w-screen   lg:z-0">
         <i class="fa-solid fa-bars text-white text-[25px] p-2 rounded-md m-3 bg-black/50"></i>
       </div>
       <!-- navbar -->
       <div
 
-        class="navbar lg:bg-red-500 mobile:bg-black/50 lg:z-50 mobile:-translate-x-[100%]  mobile:z-50 lg:translate-x-0 mobile:fixed mobile:top-0   md:bg-purple-600 sm:bg-orange-500  mobile:w-full mobile:h-screen mobile:block lg:backdrop-blur-md lg:h-20 lg:flex lg:fixed lg:w-screen z-20 "
+        class="navbar lg:bg-red-500 mobile:bg-black/50 lg:z-50 mobile:-translate-x-[100%] duration-500  mobile:z-50 lg:translate-x-0 mobile:fixed mobile:top-0   md:bg-purple-600 sm:bg-orange-500  mobile:w-full mobile:h-screen mobile:block lg:backdrop-blur-md lg:h-20 lg:flex lg:fixed lg:w-screen z-20 "
       >
-        <div class="lg:h-full mobile:relative mobile:h-[10%] lg:bg-red-500  mobile:flex mobile:items-center  mobile:w-[80%] mobile:bg-black/90 mobile:backdrop-blur-md  w-1/2 lg:px-7 mobile:px-3 lg:flex lg:gap-2  lg:items-center">
-          <svg xmlns="http://www.w3.org/2000/svg"   class="w-10 h-10 fill-white" height="16" width="20" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"/></svg>
-          <h1 class="text-2xl mobile:text-[20px] mobile:ml-3 font-semibold text-white">JUST PLAY</h1>
-          <div class="lg:hidden mobile:absolute mobile:top-5 mobile:right-5 ">
+        <div class="lg:h-full mobile:relative mobile:h-[10%] mobile:border-r mobile:justify-between  lg:bg-red-500  mobile:flex mobile:items-center  mobile:w-[80%] mobile:bg-black/90 mobile:backdrop-blur-md  w-1/2 lg:px-7 mobile:px-5 lg:flex lg:gap-2  lg:items-center">
+          <div class="flex items-center">
+
+            <svg xmlns="http://www.w3.org/2000/svg"   class="w-10 h-10 fill-white" height="16" width="20" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"/></svg>
+            <h1 class="text-2xl mobile:text-[20px] mobile:ml-3 font-semibold text-white">JUST PLAY</h1>
+          </div>
+          <div class="lg:hidden ">
             <i class="fa-solid fa-xmark text-white text-[24px]"></i>
           </div>
         </div>
-        <div class="lg:h-full lg:w-1/2 lg:px-7 mobile:bg-black/90 lg:bg-red-500 mobile:w-[80%] mobile:backdrop-blur-md mobile:h-[90%] ">
+        <div class="lg:h-full lg:w-1/2 lg:px-7 mobile:bg-black/90 mobile:border-r  lg:bg-red-500 mobile:w-[80%] mobile:backdrop-blur-md mobile:h-[90%] ">
           <ul class="lg:h-full lg:flex lg:justify-end lg:items-center mobile:h-full  lg:space-x-3 list mobile:uppercase  lg:lowercase  mobile:px-24 mobile:py-40 lg:p-0 ">
             <li class="font-semibold mobile:mb-5 lg:mb-0 text-white">
               <a href="#Home">Home</a>
@@ -50,7 +53,7 @@
       <!-- Homepage -->
       <section
         id="Home"
-        class="lg:bg-black/80 lg:h-[1000px]   mobile:h-auto mobile:pt-28 mobile:pb-10 mobile:pl-16 lg:px-20 lg:pt-32 lg:grid lg:grid-cols-4 lg:gap-5 mobile:grid-cols-1  mobile:space-y-5 lg:space-y-0"
+        class="lg:bg-black/80 lg:h-[1000px] mobile:bg-gradient-to-tr from-gray-800/40 to-black/60  mobile:h-auto mobile:pt-28 mobile:pb-10 mobile:pl-16 lg:px-20 lg:pt-32 lg:grid lg:grid-cols-4 lg:gap-5 mobile:grid-cols-1  mobile:space-y-5 lg:space-y-0"
       >
         <!-- firstchild -->
         <div
@@ -165,10 +168,10 @@
         <div class="h-full absolute w-full bg-black/40 flex justify-between items-center px-20">
 
         </div>
-        <img src="./image-10.jpg" class="w-full  bg-center object-cover h-full" alt="">
+        <img src="./image-10.jpg" class="w-full mobile:hidden  bg-center object-cover h-full" alt="">
       </section>
       <!-- Services -->
-      <section id="Services" class="bg-[#151515] flex justify-center mobile:h-auto mobile:py-10 items-center">
+      <section id="Services" class="bg-[#151515] flex justify-center mobile:h-auto mobile:py-20 items-center">
            <div class="w-[470px] h-[500px] lg:bg-gray-600/40  overflow-hidden rounded-md">
             <div class="h-[15%] flex justify-center items-center shadow-sm lg:shadow-white">
                   <h2 class="text-3xl text-white">REGISTER HERE</h2>
@@ -228,9 +231,26 @@
            </div>
       </section>
       <!-- learn -->
-      <section id="Learn" class="bg-[#1a2027] flex justify-center items-center">
+      <section id="Learn" class="bg-[#1a2027] mobile:h-80 mobile:bg-black flex justify-center items-center">
       
     </div>
+<script>
+  document.querySelector('.fa-bars').addEventListener('click',()=>{
+    document.querySelector('.navbar').classList.add('mobile:translate-x-0')
+    document.querySelector('.upbar').classList.add('opacity-0')
+  })
 
+   document.querySelector('.fa-xmark').addEventListener('click',()=>{
+     document.querySelector('.upbar').classList.remove('opacity-0')
+  
+    document.querySelector('.navbar').classList.remove('mobile:translate-x-0')
+  })
+
+  document.querySelectorAll('li').forEach((it)=>{
+      it.addEventListener('click',()=>{
+        document.querySelector('.navbar').classList.remove('mobile:translate-x-0')
+      })
+  })
+</script>
   </body>
 </html>
