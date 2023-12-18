@@ -1365,6 +1365,15 @@ body::-webkit-scrollbar-track {
     background-color: rgb(239 68 68 / var(--tw-bg-opacity));
   }
 
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .lg\:bg-gray-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  }
+
   .lg\:p-0 {
     padding: 0px;
   }
