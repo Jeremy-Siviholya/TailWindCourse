@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Courses</title>
     <link rel="stylesheet" href="./styles.css" />
-    
+    <script src="./js/index.js" defer type="module"></script>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
   </head>
@@ -19,7 +19,7 @@
 
         class="navbar lg:bg-red-500 mobile:bg-black/50 lg:z-50 mobile:-translate-x-[100%] duration-500  mobile:z-50 lg:translate-x-0 mobile:fixed mobile:top-0   md:bg-purple-600 sm:bg-orange-500  mobile:w-full mobile:h-screen mobile:block lg:backdrop-blur-md lg:h-20 lg:flex lg:fixed lg:w-screen z-20 "
       >
-        <div class="lg:h-full mobile:relative mobile:h-[10%] mobile:border-r mobile:justify-between  lg:bg-red-500  mobile:flex mobile:items-center  mobile:w-[80%] mobile:bg-black/90 mobile:backdrop-blur-md  w-1/2 lg:px-7 mobile:px-5 lg:flex lg:gap-2  lg:items-center">
+        <div class="lg:h-full mobile:relative mobile:h-[10%] mobile:border-r lg:border-none mobile:justify-between  lg:bg-red-500  mobile:flex mobile:items-center  mobile:w-[80%] mobile:bg-black/90 mobile:backdrop-blur-md  w-1/2 lg:px-7 mobile:px-5 lg:flex lg:gap-2  lg:items-center">
           <div class="flex items-center">
 
             <svg xmlns="http://www.w3.org/2000/svg"   class="w-10 h-10 fill-white" height="16" width="20" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"/></svg>
@@ -234,24 +234,6 @@
       <section id="Learn" class="bg-[#1a2027] mobile:h-80 mobile:bg-black flex justify-center items-center">
       
     </div>
-<script>
-  document.querySelector('.fa-bars').addEventListener('click',()=>{
-    document.querySelector('.navbar').classList.add('mobile:translate-x-0')
-    document.querySelector('.upbar').classList.add('opacity-0')
-  })
 
-   document.querySelector('.fa-xmark').addEventListener('click',()=>{
-     document.querySelector('.upbar').classList.remove('opacity-0')
-  
-    document.querySelector('.navbar').classList.remove('mobile:translate-x-0')
-  })
-
-  document.querySelectorAll('li').forEach((it)=>{
-      it.addEventListener('click',()=>{
-        document.querySelector('.upbar').classList.remove('opacity-0')
-        document.querySelector('.navbar').classList.remove('mobile:translate-x-0')
-      })
-  })
-</script>
   </body>
 </html>
