@@ -1412,6 +1412,10 @@ body::-webkit-scrollbar-track {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:items-center {
     align-items: center;
   }
@@ -1476,6 +1480,11 @@ body::-webkit-scrollbar-track {
 
   .lg\:bg-transparent {
     background-color: transparent;
+  }
+
+  .lg\:bg-\[\#E1E1E1\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(225 225 225 / var(--tw-bg-opacity));
   }
 
   .lg\:bg-gradient-to-t {
