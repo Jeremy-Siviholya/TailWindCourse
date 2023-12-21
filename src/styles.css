@@ -10,7 +10,7 @@
 
 
 .list li:nth-child(3) {
-  @apply text-[#00FF66];
+  @apply text-white font-bold
 }
 
 

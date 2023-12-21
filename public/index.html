@@ -11,8 +11,8 @@
   </head>
   <body class="bg-[#242424]">
     <div class="mobile:h-auto mobile:p-0 mobile:relative">
-      <div class="lg:hidden upbar mobile:bg-black/50 mobile:fixed mobile:top-0 mobile:backdrop-blur-sm mobile:z-30 mobile:w-screen   lg:z-0">
-        <i class="fa-solid fa-bars text-white text-[25px] p-2 rounded-md m-3 bg-black/50"></i>
+      <div class="lg:hidden upbar bg-black h-20 fixed top-0 flex justify-start items-center pl-3 left-0 right-0   z-30 w-screen ">
+        <i class="fa-solid fa-bars text-white text-[25px]  rounded-md m-3 bg-black/50"></i>
       </div>
       <!-- navbar -->
       <div
@@ -41,7 +41,7 @@
               <a href="#Services">Services</a>
             </li>
             <li class="font-semibold  text-white">
-              <a href="#Learn">Learn</a>
+              <a href="#Learn">Contact</a>
             </li>
           </ul>
         </div>
@@ -50,7 +50,7 @@
       <!-- Homepage -->
       <section
         id="Home"
-        class="lg:bg-black/80 lg:h-auto lg:bg-[#151515] lg:overflow-y-auto mobile:bg-gradient-to-tr mobile:from-[#0099ff] mobile:to-[#0092F3] lg:bg-gradient-to-t lg:from-black/40 lg:to-black/50   mobile:h-auto mobile:pt-28 mobile:pb-10 mobile:pl-16 lg:px-20 lg:pt-32 lg:grid lg:grid-cols-4 lg:gap-5 mobile:grid-cols-1  mobile:space-y-5 lg:space-y-0"
+        class="lg:bg-black/80 lg:h-auto lg:bg-[#151515] lg:overflow-y-auto mobile:bg-black/40 lg:bg-gradient-to-t lg:from-black/40 lg:to-black/50   mobile:h-auto mobile:pt-28 mobile:pb-10 mobile:pl-16 lg:px-20 mobile:px-0 lg:pt-32 lg:grid lg:grid-cols-4 lg:gap-5 mobile:grid-cols-1  mobile:space-y-5 lg:space-y-0"
       >
         <!-- firstchild -->
         <div
@@ -162,8 +162,23 @@
       </section>
       <!-- About -->
       <section id="About" class="bg-[#1A2027] relative">
-        <div class="h-full absolute w-full bg-black/40 flex justify-between items-center px-20">
+        <div class="h-full absolute w-full bg-black/40 flex justify-center  items-center space-y-5">
+          <div class="">
 
+           
+            <div class="bg-white  relative z-0 h-72 rounded-md w-96">
+              <div class="w-20 h-20 bg-white -top-[7%]  rounded-full absolute left-[40%]"></div>
+              <div class="w-[70px] h-[70px] bg-[#0099ff] z-10  flex justify-center items-center -top-[6%] rounded-full absolute left-[159px]">
+                <i class="fa fa-play text-white text-[25px]"></i>
+              </div>
+              <div class="overflow-hidden rounded-md h-full z-0 w-full absolute">
+                  <img src="./image-11.jpg" class="h-full" alt="">
+              </div>
+              <div class="bg-[#0099ff] text-white font-semibold w-24 h-10 absolute right-2 bottom-2 rounded-full flex justify-center items-center">
+                  <span>Buy Now</span>
+              </div>
+            </div>
+          </div>
         </div>
         <img src="./image-10.jpg" class="w-full mobile:hidden  bg-center object-cover h-full" alt="">
       </section>
